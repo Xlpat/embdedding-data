@@ -1,12 +1,22 @@
 {
   "embeddings": [
     {
-      "tensorName": "Patent Word Embedding",
+      "tensorName": "Patents Word Embedding(Column)",
       "tensorShape": [
         45056,
         128
       ],
       "tensorPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/col_embedding.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/metadata.tsv"
+    },
+
+    {
+      "tensorName": "Patents Word Embedding(Row)",
+      "tensorShape": [
+        45056,
+        128
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/row_embedding.tsv",
       "metadataPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/metadata.tsv"
     }
   ]
