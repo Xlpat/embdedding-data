@@ -1,10 +1,10 @@
 {
   "embeddings": [
     {
-      "tensorName": "My tensor",
+      "tensorName": "Patent Word Embedding",
       "tensorShape": [
-        1000,
-        50
+        45056,
+        128
       ],
       "tensorPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/col_embedding.tsv",
       "metadataPath": "https://raw.githubusercontent.com/Xlpat/embdedding-data/master/metadata.tsv"
